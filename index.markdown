@@ -1,8 +1,10 @@
 ---
 layout: default
-title: Natronics Projects
+title: some of my projects
 ---
 
-# Natronics Projects
+## MSL-Feed
 
-Some things I've done
+A scraper for RSS feeds of raw images from the NASA's Curiosity Mars rover.
+
+[View on github](https://github.com/natronics/MSL-Feed)
