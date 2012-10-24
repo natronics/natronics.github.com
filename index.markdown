@@ -13,7 +13,7 @@ Currently running and hosted at [mars.open-notify.org](http://mars.open-notify.o
 
 ## Solarview
 
-A python script that can genorate a current top down diagram
+A python script that can generate a current top down diagram
 of the solar system with the current position of active deep
 space probes. Data is scraped from JPL's Horizons system.
 
