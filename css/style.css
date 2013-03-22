@@ -27,8 +27,25 @@ a, a:hover {
 	font-size: 0.32em;
 }
 
+#header a,
+#header a:hover {
+    color: #eee;
+}
+
 #content {
 	padding-top: 50px;
+}
+
+.article {
+    font-family: "Arvo", Helvetica, Arial, sans-serif;
+}
+
+.article p {
+    margin-bottom: 1.8em;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 #footer {

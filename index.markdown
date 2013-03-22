@@ -8,7 +8,7 @@ title: some of my projects
 A photo browser for NASA's Earth Observation Laboratory.
 
  - Live site: <http://eol-browser.herokuapp.com>
- - Documentation: [http://natronics.github.com/EOL-Photos/](http://natronics.github.com/EOL-Photos/)
+ - Documentation: [natronics.github.com/EOL-Photos](http://natronics.github.com/EOL-Photos/)
  - [View on github](https://github.com/natronics/EOL-Photos)
 
 
