@@ -86,6 +86,37 @@ i {
     margin-bottom: 2.0em;
 }
 
+.barchart {
+    list-style: none;
+    margin-left: 1.0em;
+}
+
+.barchart li {
+    margin-bottom: 2px;
+}
+
+.barchart .title {
+    display: inline-block;
+    width: 4em;
+}
+
+.barchart .bar {
+    display: inline-block;
+    text-align: right;
+    background: #c02942;
+}
+
+.barchart .number {
+    color: #fff;
+    padding-right: 5px;
+}
+
+.barchart .number.outside {
+    padding-left: 5px;
+    color: #000;
+}
+
+
 #footer {
 	background: #222 url('/css/border.png') repeat-x 0 0;
 	padding-top: 90px;
