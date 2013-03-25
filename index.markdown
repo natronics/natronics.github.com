@@ -3,6 +3,14 @@ layout: default
 title: some of my projects
 ---
 
+## ISS-photo-locations
+
+A dataset of the location of nearly every photograph taken from the International Space Station.
+
+ - Dataviz and article: [natronics.github.com/ISS-photo-locations](http://natronics.github.com/ISS-photo-locations/)
+ - [View on github](https://github.com/natronics/ISS-photo-locations)
+
+
 ## EOL-Photos
 
 A photo browser for NASA's Earth Observation Laboratory.
