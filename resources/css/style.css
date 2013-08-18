@@ -50,9 +50,9 @@ a:hover {
     font-weight: 400;
 }
 
-#content h2 {
-    margin-top: 1.5em;
-}
+#content h1 { font-weight: 700; margin-top: 1.0em; }
+#content h2 { margin-top: 1.5em; }
+
 
 #content p {
     margin-bottom: 1.8em;
@@ -60,6 +60,14 @@ a:hover {
     line-height: 1.5em;
     text-align: justify;
     text-justify: inter-word;
+}
+
+#content p+ul {
+    margin-top: -1.8em;
+}
+
+#content h1+h2 {
+    margin-top: 0.8em;
 }
 
 .article .pubdate {
