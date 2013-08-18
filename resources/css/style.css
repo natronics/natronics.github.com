@@ -79,6 +79,25 @@ a:hover {
     background: #FDF9F0;
 }
 
+.highlight pre {
+    margin-bottom: 0;
+    border-radius: 4px 4px 0  0;
+}
+
+.output pre {
+    background: #f8f8f8;
+    color: #000;
+    border: 1px solid #dad8d8;
+    border-top: 0;
+    border-radius: 0 0 4px 4px;
+    padding-top: 25px;
+}
+
+.output .prompt {
+    color: #999;
+}
+
+
 .article .pubdate {
     color: #666;
     display: block;
