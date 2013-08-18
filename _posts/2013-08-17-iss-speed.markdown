@@ -1,0 +1,96 @@
+---
+layout: notebook
+title: 2013-08-17-iss-speed
+---
+
+
+# How Far Does the ISS Go In ...
+
+The [International Space Station](http://www.nasa.gov/audience/forstudents/k-4/stories/what-is-the-iss-k4.html) is in low Earth orbit traveling almost 8 km/s relative to the the surface of the Earth. Just how fast is that?
+
+## ISS Speed
+
+The average height of the ISS is around 413 km<sup>[<a href="#references">1</a>]</sup>. For a circular orbit around the Earth orbital speed is
+
+$$v = \sqrt{\frac{G~M_{Earth}}{r}}$$
+
+
+{% highlight python %}
+from math import sqrt
+
+G = 6.67384e-11   # m3 kg-1 s-2  Gravitational Constant
+M = 5.972e24      # kg  Mass of the Earth
+R_e = 6371e3      # m   Radius of the Earth
+R_iss = 412e3     # m   Height of the ISS
+
+v_iss = sqrt((G*M)/(R_e + R_iss))
+
+print "%0.0f m/s" % v_iss
+{% endhighlight %}
+
+<div class="output">
+<pre>
+<span class="prompt">&gt;</span> 7665 m/s
+</pre>
+</div>
+
+At that speed, how far does the ISS go in x seconds? We can make a little convenience function
+
+
+{% highlight python %}
+def iss(s):
+    return v_iss * s # speed times time in seconds
+
+print "In one tenth of a second the ISS moves %0.1f meters" % iss(0.1)
+{% endhighlight %}
+
+<div class="output">
+<pre>
+<span class="prompt">&gt;</span> In one tenth of a second the ISS moves 766.5 meters
+</pre>
+</div>
+
+## Faster than a speeding bullet
+
+Lets say we have a pretty standard 22 rifle with a 0.48 meter long barel.<sup>[<a href="#references">2</a>]</sup> Lets use standard .22 LR rounds which have a muzzle velocity of about 343 m/s.<sup>[<a href="#references">3</a>]</sup> If we assume that the bullet accelerates smoothly in the barrel then it should take
+
+$$t = \frac{2x}{v_{muzzle}}$$
+
+seconds to leave the end of the rifle after pulling the trigger.
+
+
+{% highlight python %}
+x = 0.48   # m  muzzle length
+v = 343.0  # m/s muzzle velocity
+
+t = (2*x)/v
+
+print "A .22 LR takes about %0.5f seconds to leave the barrel" % t
+{% endhighlight %}
+
+<div class="output">
+<pre>
+<span class="prompt">&gt;</span> A .22 LR takes about 0.00280 seconds to leave the barrel
+</pre>
+</div>
+
+Meanwhile the ISS has been traveling ...
+
+
+{% highlight python %}
+print "In that time the ISS moves %0.1f meters" % iss(t)
+{% endhighlight %}
+
+<div class="output">
+<pre>
+<span class="prompt">&gt;</span> In that time the ISS moves 21.5 meters
+</pre>
+</div>
+
+# References
+
+ 1. Height of the ISS <http://www.heavens-above.com/IssHeight.aspx>
+ 1. Ruger 10/22 <http://www.ruger.com/products/1022Sporter/models.html>
+ 1. .22 LR Standard Velocity <http://en.wikipedia.org/wiki/.22_Long_Rifle#Standard_velocity>
+
+
