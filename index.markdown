@@ -17,7 +17,7 @@ title: Something about me
 
 # Articles
 
-## ISS Photo Locations ([read](http://natronics.github.io/ISS-photo-locations/))
+## ISS Photo Locations ([read](/ISS-photo-locations/))
 
 A dataset of the location of nearly every photograph taken from the International Space Station.
 
@@ -41,7 +41,7 @@ A dataset of the location of nearly every photograph taken from the Internationa
 A photo browser for NASA's Earth Observation Laboratory.
 
  - Live site: <http://eol-browser.herokuapp.com>
- - Documentation: [natronics.github.com/EOL-Photos](http://natronics.github.com/EOL-Photos/)
+ - Documentation: [natronics.github.io/EOL-Photos](/EOL-Photos/)
  - [View on github](https://github.com/natronics/EOL-Photos)
 
 
