@@ -75,6 +75,21 @@ a:hover {
     margin-top: 0.8em;
 }
 
+#content .posts {
+    margin-top: 1.0em;
+    font-weight: normal;
+    font-size: 20px;
+    list-style: none;
+}
+
+#content .posts h1 {
+    font-weight: normal;
+    font-size: 20px;
+    display: inline;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+}
+
+
 .highlight pre {
     background: #FDF9F0;
 }
