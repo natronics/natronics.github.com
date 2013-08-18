@@ -17,7 +17,7 @@ title: Something about me
 
 # Articles
 
-## ISS-photo-locations ([read](http://natronics.github.io/ISS-photo-locations/))
+## ISS Photo Locations ([read](http://natronics.github.io/ISS-photo-locations/))
 
 A dataset of the location of nearly every photograph taken from the International Space Station.
 
