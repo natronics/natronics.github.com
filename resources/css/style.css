@@ -70,6 +70,10 @@ a:hover {
     margin-top: 0.8em;
 }
 
+.highlight pre {
+    background: #FDF9F0;
+}
+
 .article .pubdate {
     color: #666;
     display: block;
