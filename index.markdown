@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: main
 title: some of my projects
 ---
 
