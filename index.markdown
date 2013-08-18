@@ -3,6 +3,8 @@ layout: main
 title: Something about me
 ---
 
+# Blag
+
 <ul>
   {% for post in site.posts %}
     <li>
@@ -10,6 +12,8 @@ title: Something about me
     </li>
   {% endfor %}
 </ul>
+
+---
 
 # Articles
 
