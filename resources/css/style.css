@@ -17,6 +17,9 @@ a:hover {
     color: #c02942;
 }
 
+p {clear: both;}
+h1,h2,h3,h4,h5,h6 {clear: both;}
+
 #header {
 	background: #542437;
 	background: -moz-linear-gradient(-45deg,  #542437 0%, #941e56 100%);
@@ -99,6 +102,16 @@ a:hover {
     border-radius: 4px 4px 0  0;
 }
 
+i {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+}
+
+.icon-zip { background: transparent url('/resources/img/icons.png') no-repeat -68px 0; }
+.icon-tar { background: transparent url('/resources/img/icons.png') no-repeat 0 0; }
+.icon-github { background: transparent url('/resources/img/icons.png') no-repeat -134px 0; }
+
 .output pre {
     background: #f8f8f8;
     color: #000;
@@ -113,25 +126,32 @@ a:hover {
 }
 
 
-.article .pubdate {
+.pubdate {
     color: #666;
     display: block;
-    font-size: 12px;
-    margin-top: -10px;
+    font-size: 0.9em;
     margin-bottom: 2.0em;
 }
 
 
 .footnote {
-    color: #555;
+    display: block;
     text-align: left;
-    position: absolute;
-    left: 660px;
-    margin-top: 10px;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 10px;
-    line-height: 14px;
-    width: 140px;
+    font-size: 11px;
+    line-height: 1.7em;
+    width: 280px;
+    font-style: italic;
+    float: right;
+    margin-top: 20px;
+}
+
+@media (min-width: 1200px) {
+    .footnote {
+        margin-right: -210px;
+        padding-left: 40px;
+        width: 210px;
+    }
 }
 
 .image {
@@ -140,8 +160,6 @@ a:hover {
 }
 
 .image.primary {
-    width: 940px;
-    margin-left: -160px;
     margin-bottom: 2.0em;
 }
 
@@ -184,3 +202,4 @@ a:hover {
     display: block;
     padding-bottom: 7px;
 }
+
