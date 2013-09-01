@@ -1,14 +1,39 @@
 ---
-layout: default
-title: some of my projects
+layout: main
+title: Something about me
 ---
 
-## ISS-photo-locations
+# Blag
+
+<ul class="posts">
+  {% for post in site.posts %}
+    <li>
+      - <a href="{{ post.url }}">{{ post.date | date: "%B %Y" }} &ndash; {{ post.content | split: '</h1>' | first }}</h1></a>
+    </li>
+  {% endfor %}
+</ul>
+
+---
+
+# Articles
+
+## ISS Photo Locations ([read](/ISS-photo-locations/))
 
 A dataset of the location of nearly every photograph taken from the International Space Station.
 
- - Dataviz and article: [natronics.github.com/ISS-photo-locations](http://natronics.github.com/ISS-photo-locations/)
  - [View on github](https://github.com/natronics/ISS-photo-locations)
+
+---
+
+# Projects
+
+## Open Space APIs
+
+[open-notify.org](http://open-notify.org/) is a collection of NASA and space APIs for public use.
+
+ - Live site: <http://api.open-notify.org/>
+ - Documentation: [open-notify.org/Open-Notify-API/](http://open-notify.org/Open-Notify-API/)
+ - [View on github](https://github.com/open-notify/Open-Notify-API)
 
 
 ## EOL-Photos
@@ -16,7 +41,7 @@ A dataset of the location of nearly every photograph taken from the Internationa
 A photo browser for NASA's Earth Observation Laboratory.
 
  - Live site: <http://eol-browser.herokuapp.com>
- - Documentation: [natronics.github.com/EOL-Photos](http://natronics.github.com/EOL-Photos/)
+ - Documentation: [natronics.github.io/EOL-Photos](/EOL-Photos/)
  - [View on github](https://github.com/natronics/EOL-Photos)
 
 
@@ -27,19 +52,3 @@ A collection of D3 charts and styles I've built
  - [View on github](https://github.com/natronics/D3-Smorgasbord)
 
 
-## MSL-Feed
-
-A scraper for RSS feeds of raw images from the NASA's Curiosity Mars rover.
-
-Currently running and hosted at [mars.open-notify.org](http://mars.open-notify.org/)
-
- - [View on github](https://github.com/natronics/MSL-Feed)
-
-
-## Solarview
-
-A python script that can generate a current top down diagram
-of the solar system with the current position of active deep
-space probes. Data is scraped from JPL's Horizons system.
-
- - [View on github](https://github.com/natronics/Solarview)

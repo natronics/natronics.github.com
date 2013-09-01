@@ -1,0 +1,12 @@
+---
+layout: main
+title: Page not found!
+---
+
+# 404
+
+### Not found
+
+Sorry, that resource isn't here.
+
+Most stuff that is here is listed on the [font page](/).

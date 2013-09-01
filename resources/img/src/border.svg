@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="50"
+   height="35"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="border.svg"
+   inkscape:export-filename="/home/natronics/Code/natronics.github.com/css/botomborder.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <filter
+       inkscape:collect="always"
+       id="filter3819"
+       x="-0.076729998"
+       width="1.15346"
+       y="-0.12819492"
+       height="1.2563898">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.5104839"
+         id="feGaussianBlur3821" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter3860"
+       x="-0.11021742"
+       width="1.2204348"
+       y="-0.20764497"
+       height="1.4152899">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.582066"
+         id="feGaussianBlur3862" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="9.8570685"
+     inkscape:cx="25"
+     inkscape:cy="17.5"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     borderlayer="true"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1176"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="2"
+       visible="false"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1017.3622)">
+    <rect
+       style="fill:#222222;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3775"
+       width="80"
+       height="42"
+       x="-16"
+       y="9"
+       transform="translate(0,1017.3622)"
+       rx="0"
+       ry="0" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3860)"
+       d="m 0,1036.3622 12.508066,-5.4022 12.508064,5.4022 12.508066,-5.4022 12.508066,5.4022 13.983868,-5.1828 0.491936,-36.2194 -78,0 0.983869,36 z"
+       id="path2987-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccc" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#d2d2d2;stroke-width:0.75;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 0,1033.3622 12.508066,-5.4022 12.508064,5.4022 12.508066,-5.4022 12.508066,5.4022 13.983868,-5.1828 0.491936,-18.2194 -78,0 0.983869,18 z"
+       id="path2987"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccc" />
+  </g>
+</svg>

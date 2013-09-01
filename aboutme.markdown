@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: about me
 ---
 
@@ -9,4 +9,4 @@ I like to code amazing stuff and I'm kind of obsessed with space.
 
 Send me an email [nathan.bergey@gmail.com](mailto:nathan.bergey@gmail.com)
 
-Hang out on IRC in #space or #pdxtech on [freenode](http://freenode.net/using_the_network.shtml)
+Hang out on IRC in `#space` or `#pdxtech` on [freenode](http://freenode.net/using_the_network.shtml)
