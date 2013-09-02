@@ -1,6 +1,6 @@
 ---
 layout: main
-title: Something about me
+title: Oculata Certitudine
 ---
 
 # Blag
@@ -8,22 +8,24 @@ title: Something about me
 <ul class="posts">
   {% for post in site.posts %}
     <li>
-      - <a href="{{ post.url }}">{{ post.date | date: "%B %Y" }} &ndash; {{ post.content | split: '</h1>' | first }}</h1></a>
+      <a href="{{ post.url }}">{{ post.date | date: "%B %Y" }} &ndash; {{ post.content | split: '</h1>' | first }}</h1></a>
     </li>
   {% endfor %}
 </ul>
 
 ---
 
+
 # Articles
 
 ## ISS Photo Locations ([read](/ISS-photo-locations/))
 
-A dataset of the location of nearly every photograph taken from the International Space Station.
+Visualization of the location of nearly every photograph taken from the International Space Station.
 
  - [View on github](https://github.com/natronics/ISS-photo-locations)
 
 ---
+
 
 # Projects
 
@@ -36,19 +38,44 @@ A dataset of the location of nearly every photograph taken from the Internationa
  - [View on github](https://github.com/open-notify/Open-Notify-API)
 
 
+## Portland State Aerospace Society
+
+For many years I've been heavily involved at [PSAS](http://psas.pdx.edu/), an
+educational group dedicated to building advanced avionics for high powered
+rockets. A couple of examples of my work there:
+
+ - [Research](http://psas.github.io/research-notebooks/)
+ - [Technical Writing](https://github.com/psas/procedure-book)
+ - [3D printed cable connectors](https://github.com/psas/avionics-cad/tree/master/av3/rocketnet-connector/3d)
+ - [Diagrams](http://psas.pdx.edu/launch10/LV2_3_june.png)
+ - [Video Production](http://www.youtube.com/watch?v=VAnPtbYMA8o)
+ - [Data Analysis](http://psas.pdx.edu/lv2c_launchdata-2010-06-27/#index6h2)
+
+And much more:
+
+ - [PSAS on github](https://github.com/psas/)
+
+
 ## EOL-Photos
 
 A photo browser for NASA's Earth Observation Laboratory.
 
- - Live site: <http://eol-browser.herokuapp.com>
+ - Live site: <http://spaceshots.org/>
  - Documentation: [natronics.github.io/EOL-Photos](/EOL-Photos/)
  - [View on github](https://github.com/natronics/EOL-Photos)
 
 
 ## D3-Smorgasbord
 
-A collection of D3 charts and styles I've built
+A very small collection of D3 charts and styles I've built
 
  - [View on github](https://github.com/natronics/D3-Smorgasbord)
 
 
+## Mars Science laboratory Image Feed
+
+Now defunct. I put this together in an afternoon to track new images coming from
+MSL after she landed. It worked for a little bit, but JPL kept changing their
+layout and I couldn't keep up with the scraper.
+
+ - [View on github](https://github.com/natronics/MSL-Feed)
