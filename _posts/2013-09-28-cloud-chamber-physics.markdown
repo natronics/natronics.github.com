@@ -68,5 +68,5 @@ print "Power supply for top TEC      ", power(90, TEC_5), 'Watts'
 
 Luckily we have two ~100 watt power supplies.
 
- - [Download this notebook]()
- - [View on nbviewer]()
+ - [Download this notebook](https://raw.github.com/natronics/natronics.github.com/master/notebooks/2013-09-28-cloud-chamber-physics.ipynb)
+ - [View on nbviewer](http://nbviewer.ipython.org/urls/raw.github.com/natronics/natronics.github.com/master/notebooks/2013-09-28-cloud-chamber-physics.ipynb)
