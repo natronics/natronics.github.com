@@ -56,6 +56,13 @@ And much more:
  - [PSAS on github](https://github.com/psas/)
 
 
+## NASA Style Switch Guards
+
+A 3D printed version of NASA's awesome looking toggle switch guards so you don't accidentally hit a switch in orbit.
+
+ - [NASA Switch Guard](http://natronics.github.io/NASA-switch-guard/)
+
+
 ## EOL-Photos
 
 A photo browser for NASA's Earth Observation Laboratory.
