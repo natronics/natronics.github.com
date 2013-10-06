@@ -203,3 +203,22 @@ i {
     padding-bottom: 7px;
 }
 
+/* Thingihub */
+.thingdownload {
+    width: 100%;
+    font-size: 1.2em;
+    margin-top: 10px;
+    background-color: #941e56;
+    border-color: #542437;
+}
+
+.thingdownload:hover {
+    background-color: #c02942;
+    border-color: #941e56;
+
+}
+
+#content .thingactions h2 {
+    margin-top: 0;
+}
+
