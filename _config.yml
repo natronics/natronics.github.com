@@ -1,3 +1,3 @@
 exclude: [README.md, Makefile, notebooks, test.sh]
-pygments: true
 permalink: /blag/:year/:title
+highlighter: pygments
