@@ -6,7 +6,9 @@ blue = '#709afa'
 
 class Plot(object):
 
-    def __init__(self, title, xlabel="Time [s]", ylabel="", yrange=None, tend=5.0e-9):
+    def __init__(self, title, xlabel="Time [s]", ylabel="", yrange=None, tend=5.0e-9, sr=1.0-11):
+        self.end = tend
+        self.sample_rate = sr
         self.ax = plt.figure(figsize=(16,7))
         plt.title(title)
         plt.xlabel(xlabel)
@@ -21,8 +23,8 @@ class Plot(object):
     def signal(self, f, color=red, alpha=0.8, lw=1.73, label="signal"):
         x = []
         y = []
-        for i in xrange(1600000):
-            t = i*1.0e-11
+        for i in xrange(int(self.end/self.sample_rate)):
+            t = i*self.sample_rate
             x.append(t)
             y.append(f(t))
         plt.plot(x, y, color, alpha=alpha, lw=lw, label=label)
