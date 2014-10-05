@@ -33,7 +33,7 @@ Visualization of the location of nearly every photograph taken from the Internat
 
 I was at SHD San Fransisco 2014 and [worked on these projects](science-hack-day-2014)
 
- - [View on github](https://github.com/open-notify/science-hack-day-2014)
+ - [View on github](https://github.com/natronics/science-hack-day-2014)
 
 
 ## Open Space APIs
