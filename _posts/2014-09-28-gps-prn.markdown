@@ -1583,4 +1583,4 @@ ceMLX/gCVq5ciSlTpmDbtm2u565duxaXX345DMPAk08+iXPPPfco5ZKIiGhs4cKXiIiIiIiIQo2/
 gNujsgAAAABJRU5ErkJggg==
 "></div>
 
-See [previous post](/blag/2014/gps-viz-1/) and the next post to continue learning about GPS sinals.
+See [previous post](/blag/2014/gps-viz-1/) and the [next post](/blag/2014/gps-spreading/) to continue learning about GPS sinals.
