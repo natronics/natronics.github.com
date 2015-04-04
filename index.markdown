@@ -13,7 +13,10 @@ title: Oculata Certitudine
   {% endfor %}
 </ul>
 
----
+
+
+--------------------------------------------------------------------------------
+
 
 
 # Articles
@@ -24,16 +27,28 @@ Visualization of the location of nearly every photograph taken from the Internat
 
  - [View on github](https://github.com/natronics/ISS-photo-locations)
 
----
+
+
+--------------------------------------------------------------------------------
+
 
 
 # Projects
 
-## Science Hack Day 2014
+
+## [space-phrase](space-phrase)
+
+A cute passphrase generator using space words.
+
+ - [View on github](https://github.com/natronics/space-phrase)
+
+
+## [Science Hack Day 2014](science-hack-day-2014)
 
 I was at SHD San Fransisco 2014 and [worked on these projects](science-hack-day-2014)
 
  - [View on github](https://github.com/natronics/science-hack-day-2014)
+
 
 
 ## Open Space APIs
