@@ -3,6 +3,8 @@ layout: main
 title: Page not found!
 ---
 
+<section markdown="1"><div class="container content" markdown="1">
+
 # 404
 
 ### Not found
@@ -10,3 +12,5 @@ title: Page not found!
 Sorry, that resource isn't here.
 
 Most stuff that is here is listed on the [font page](/).
+
+</div></section>
