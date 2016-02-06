@@ -1,3 +1,39 @@
 ---
 ---
 
+@import vendor/bulma/bulma/utilities/utilities
+@import vendor/bulma/bulma/config/variables
+
+$primary: #941e56
+$family-sans-serif: "Helvetica Neue", "Helvetica", "Arial", sans-serif
+
+
+@import vendor/bulma/bulma/config/generated-variables
+@import vendor/bulma/bulma/base/base
+@import vendor/bulma/bulma/elements/elements
+@import vendor/bulma/bulma/components/components
+@import vendor/bulma/bulma/layout/layout
+
+section
+  @extend .section
+
+header
+  @extend .container
+
+  h1
+    @extend .title
+
+  h2
+    @extend .subtitle
+    font-style: oblique
+
+footer
+  @extend .container
+  @extend .columns
+
+  p
+    @extend .column
+
+#main
+  @extend .container
+  @extend .content

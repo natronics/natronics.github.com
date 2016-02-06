@@ -3,35 +3,34 @@ layout: main
 title: Oculata Certitudine
 ---
 
-# Blag
-
-<ul class="posts">
-  {% for post in site.posts %}
+<section>
+ <div class="container">
+  <h1 class="title">Blag:</h1>
+  <ul class="posts">
+   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.date | date: "%B %Y" }} &ndash; {{ post.content | split: '</h1>' | first }}</h1></a>
+      <a href="{{ post.url }}">{{ post.date | date: "%Y %B" }} &ndash; {{ post.title }}</a>
     </li>
-  {% endfor %}
-</ul>
+   {% endfor %}
+  </ul>
+ </div>
+</section>
 
+<section markdown="1"><div class="container content" markdown="1">
 
+# Articles:
 
---------------------------------------------------------------------------------
-
-
-
-# Articles
-
-## ISS Photo Locations ([read](/ISS-photo-locations/))
+## [ISS Photo Locations](/ISS-photo-locations/) (2013)
 
 Visualization of the location of nearly every photograph taken from the International Space Station.
 
- - [View on github](https://github.com/natronics/ISS-photo-locations)
+ - [original article](/ISS-photo-locations/)
+ - [Slate Magazine](http://www.slate.com/articles/technology/future_tense/2013/10/iss_astronauts_1_129_177_photos_of_earth_plotted_on_a_map.html)
+ - [github repository](https://github.com/natronics/ISS-photo-locations)
 
+</div></section>
 
-
---------------------------------------------------------------------------------
-
-
+<section markdown="1"><div class="container content" markdown="1">
 
 # Projects
 
@@ -94,13 +93,6 @@ A photo browser for NASA's Earth Observation Laboratory.
  - [View on github](https://github.com/natronics/EOL-Photos)
 
 
-## D3-Smorgasbord
-
-A very small collection of D3 charts and styles I've built
-
- - [View on github](https://github.com/natronics/D3-Smorgasbord)
-
-
 ## Mars Science laboratory Image Feed
 
 Now defunct. I put this together in an afternoon to track new images coming from
@@ -109,3 +101,4 @@ layout and I couldn't keep up with the scraper.
 
  - [View on github](https://github.com/natronics/MSL-Feed)
 
+</div></section>
