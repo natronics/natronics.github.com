@@ -1,6 +1,7 @@
 _site/
 *.py[cod]
 .ipynb_checkpoints/
+.sass-cache
 
 #symlinks for running all my other sites in this domain
 space-phrase
