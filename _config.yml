@@ -1,3 +1,5 @@
-exclude: [README.md, Makefile, notebooks, test.sh]
-permalink: /blag/:year/:title
+exclude:
+ - README.md
+ - Makefile
+permalink: /blag/:year/:title/
 highlighter: pygments
