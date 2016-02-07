@@ -1,9 +1,7 @@
 ---
-layout: main
+layout: article
 title: Page not found!
 ---
-
-<section markdown="1"><div class="container content" markdown="1">
 
 # 404
 
@@ -13,4 +11,3 @@ Sorry, that resource isn't here.
 
 Most stuff that is here is listed on the [font page](/).
 
-</div></section>
