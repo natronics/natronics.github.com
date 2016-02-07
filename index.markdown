@@ -3,21 +3,6 @@ layout: main
 title: Oculata Certitudine
 ---
 
-<section>
- <div class="container">
-  <h1 class="title">Blag:</h1>
-  <ul class="posts">
-   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.date | date: "%Y %B" }} &ndash; {{ post.title }}</a>
-    </li>
-   {% endfor %}
-  </ul>
- </div>
-</section>
-
-<section markdown="1"><div class="container content" markdown="1">
-
 # Articles:
 
 ## [ISS Photo Locations](/ISS-photo-locations/) (2013)
@@ -25,14 +10,10 @@ title: Oculata Certitudine
 Visualization of the location of nearly every photograph taken from the International Space Station.
 
  - [original article](/ISS-photo-locations/)
- - [Slate Magazine](http://www.slate.com/articles/technology/future_tense/2013/10/iss_astronauts_1_129_177_photos_of_earth_plotted_on_a_map.html)
+ - [post on Slate Magazine](http://www.slate.com/articles/technology/future_tense/2013/10/iss_astronauts_1_129_177_photos_of_earth_plotted_on_a_map.html)
  - [github repository](https://github.com/natronics/ISS-photo-locations)
 
-</div></section>
-
-<section markdown="1"><div class="container content" markdown="1">
-
-# Projects
+# Projects:
 
 
 ## [space-phrase](space-phrase)
@@ -100,5 +81,3 @@ MSL after she landed. It worked for a little bit, but JPL kept changing their
 layout and I couldn't keep up with the scraper.
 
  - [View on github](https://github.com/natronics/MSL-Feed)
-
-</div></section>

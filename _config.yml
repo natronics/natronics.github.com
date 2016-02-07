@@ -2,4 +2,7 @@ exclude:
  - README.md
  - Makefile
 permalink: /blag/:year/:title/
-highlighter: pygments
+markdown: kramdown
+highlight: rouge
+sass:
+    style: compressed
