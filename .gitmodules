@@ -7,3 +7,6 @@
 [submodule "_sass/vendor/bulma"]
 	path = _sass/vendor/bulma
 	url = https://github.com/jgthms/bulma.git
+[submodule "assets/fonts/lato"]
+	path = assets/fonts/lato
+	url = https://github.com/FontFaceKit/lato.git

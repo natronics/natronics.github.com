@@ -1,6 +1,11 @@
 exclude:
  - README.md
  - Makefile
+ - assets/fonts/lato/bower.json
+ - assets/fonts/lato/index.html
+ - assets/fonts/lato/*.css
+ - assets/fonts/lato/*.md
+ - assets/fonts/lato/*.scss
 permalink: /blag/:year/:title/
 markdown: kramdown
 highlight: rouge
