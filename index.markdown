@@ -3,6 +3,8 @@ layout: main
 title: Oculata Certitudine
 ---
 
+I'm a space-obsessed programmer currently in Boulder, Colorado.
+ 
 # Articles:
 
 ## [ISS Photo Locations](/ISS-photo-locations/) (2013)
@@ -10,10 +12,10 @@ title: Oculata Certitudine
 Visualization of the location of nearly every photograph taken from the International Space Station.
 
  - [original article](/ISS-photo-locations/)
- - [post on Slate Magazine](http://www.slate.com/articles/technology/future_tense/2013/10/iss_astronauts_1_129_177_photos_of_earth_plotted_on_a_map.html)
+ - [re-post on _Slate Magazine_](http://www.slate.com/articles/technology/future_tense/2013/10/iss_astronauts_1_129_177_photos_of_earth_plotted_on_a_map.html)
  - [github repository](https://github.com/natronics/ISS-photo-locations)
 
-# Projects:
+# Experiments:
 
 
 ## [space-phrase](space-phrase)
