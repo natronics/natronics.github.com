@@ -64,11 +64,11 @@ header
     font-style: italic
 
 footer
-  @extend .container
-  @extend .columns
+  @extend .section
+  @extend .footer
 
-  p
-    @extend .column
+  div
+    @extend .container
 
 article
   @extend .container
@@ -82,3 +82,8 @@ article
 
   table
     @extend .table
+
+  button
+    @extend .button
+    @extend .is-primary
+    @extend .is-medium
