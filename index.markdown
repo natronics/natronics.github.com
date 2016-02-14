@@ -69,30 +69,33 @@ layout and I couldn't keep up with the scraper.
 
 --------------------------------------------------------------------------------
 
-## Open Space APIs
+## [Open Space APIs](http://open-notify.org/)
 
-[open-notify.org](http://open-notify.org/) is a collection of NASA and space APIs for public use.
+[open-notify.org](http://open-notify.org/) is a collection of NASA and space APIs for public use. Currently seeing around 20 million requests per month.
 
- - Live site: <http://api.open-notify.org/>
- - Documentation: [open-notify.org/Open-Notify-API/](http://open-notify.org/Open-Notify-API/)
- - [View on github](https://github.com/open-notify/Open-Notify-API)
+ - API endpoint: <http://api.open-notify.org/>
+ - Documentation: <https://open-notify-api.readthedocs.org>
+ - [github repository](https://github.com/open-notify/Open-Notify-API)
 
+![](https://img.shields.io/badge/language-python%202-green.svg)
+[![Build Status](https://travis-ci.org/open-notify/Open-Notify-API.svg)](https://travis-ci.org/open-notify/Open-Notify-API)
+[![Requirements Status](https://requires.io/github/open-notify/Open-Notify-API/requirements.svg?branch=master)](https://requires.io/github/open-notify/Open-Notify-API/requirements/?branch=master)
+[![Docs](https://readthedocs.org/projects/open-notify-api/badge/?version=latest)](http://open-notify-api.readthedocs.org/)
 
 ## Open Source Aerospace
 
-For many years I've been heavily involved at [PSAS](http://psas.pdx.edu/), an
-educational group dedicated to building advanced avionics for high powered
-rockets. A couple of examples of my work there:
+For many, many years I've been working with [Portland State Aerospace Society](http://psas.pdx.edu/),
+an educational group dedicated to building advanced avionics for high powered rockets.
 
- - [Research](http://psas.github.io/research-notebooks/)
- - [Technical Writing](https://github.com/psas/procedure-book)
- - [3D printed cable connectors](https://github.com/psas/avionics-cad/tree/master/av3/rocketnet-connector/3d)
- - [Diagrams](http://psas.pdx.edu/launch10/LV2_3_june.png)
- - [Video Production](http://www.youtube.com/watch?v=VAnPtbYMA8o)
- - [Data Analysis](http://psas.pdx.edu/lv2c_launchdata-2010-06-27/#index6h2)
+I've been involved, in many cases integrally, in almost every aspect of the rocket. From data analysis, to fabricating parts, to group management.
 
-And much more:
+Some highlight projects I've worked on:
 
- - [PSAS on github](https://github.com/psas/)
+ - Primary Flight Computer, written in c, flown on several flights <https://github.com/psas/av3-fc>
+ - Reusable PSAS telemetry packet encoder <https://github.com/psas/psas_packet>
+ - Live telemetry viewer, python backend, JavaScript front end <https://github.com/psas/telemetry>
+ - Printable list of launch weekend procedures, using jekyll, pandoc, and pdf tools <https://github.com/psas/procedure-book>
 
+
+And much more: <http://psas.pdx.edu/projects/>
 
