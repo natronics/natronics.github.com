@@ -1,6 +1,6 @@
 ---
 layout: notebook
-title: 2013-09-28-cloud-chamber-physics
+title:  Cloud Chamber Physics
 ---
 
 
@@ -32,6 +32,7 @@ P &= IV  \nonumber \\\
 We can computer how big of a power supply we need for each TEC:
 
 
+<div class="code hidden" markdown="1">
 {% highlight python %}
 # Define TECs
 TEC_12 = {
@@ -50,21 +51,21 @@ def power(Q, tec):
     k = tec['kp']
     return (v*Q)/k
 {% endhighlight %}
+</div>
 
 We want to suck the maximum power from both, which according to the datasheets is about 90 Watts(thermal)
 
 
+<div class="code hidden" markdown="1">
 {% highlight python %}
 print "Power supply for bottom TEC: ", power(90, TEC_12), '  Watts'
 print "Power supply for top TEC      ", power(90, TEC_5), 'Watts' 
 {% endhighlight %}
-
-<div class="output">
-<pre>
-<span class="prompt">&gt;</span> Power supply for bottom TEC:  112.5   Watts
-<span class="prompt">&gt;</span> Power supply for top TEC       46.875 Watts
-</pre>
 </div>
+
+Power supply for bottom TEC:  112.5   Watts
+Power supply for top TEC       46.875 Watts
+
 
 Luckily we have two ~100 watt power supplies.
 

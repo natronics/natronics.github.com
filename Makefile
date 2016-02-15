@@ -1,19 +1,11 @@
-NBDIR = notebooks
-FILES:=$(shell find $(NBDIR) -name '*.ipynb' -print)
-
 all: build
 
 build:
+	cd notebooks; make
 	jekyll build
 
 four:
-	rm 404.html
+	rm -rf _site/404
+	rm -f 404.html
 	jekyll build
-	cp _site/404.html ./
-
-markdown:
-	@$(foreach nb, $(FILES), ipynb2markdown $(nb);)
-	mv $(NBDIR)/*.markdown _posts/
-
-jekyll: markdown
-	jekyll build
+	cp _site/404/index.html ./404.html

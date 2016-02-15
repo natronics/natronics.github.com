@@ -1,6 +1,8 @@
 exclude:
  - README.md
  - Makefile
+ - notebooks/nb-markdown.tpl
+ - notebooks/Makefile
  - assets/fonts/lato/bower.json
  - assets/fonts/lato/index.html
  - assets/fonts/lato/*.css
