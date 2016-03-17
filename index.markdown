@@ -5,6 +5,7 @@ title: Oculata Certitudine
 
 I'm a space-obsessed programmer currently in Boulder, Colorado.
 
+[My resume](Resume)
 
 
 # Articles:
@@ -30,6 +31,13 @@ Visualization of the location of nearly every photograph taken from the Internat
 A cute passphrase generator using space words.
 
  - [github repository](https://github.com/natronics/space-phrase)
+
+
+## [List of Rocket Clubs](Rocket-Clubs) (2014)
+
+An attempt to maintain a list of advanced rocket/aerospace clubs building impressive hardware.
+
+ - [github repository](https://github.com/natronics/Rocket-Clubs)
 
 
 ## [Science Hack Day SF 2014](science-hack-day-2014)
@@ -69,6 +77,15 @@ layout and I couldn't keep up with the scraper.
 
 --------------------------------------------------------------------------------
 
+## [Open Source Aerospace](https://open-aerospace.github.io)
+
+From my experience at PSAS I split off a github org focusing on aerospace simulation.
+
+ - [github org](https://github.com/open-aerospace)
+ - Home page: <https://open-aerospace.github.io>
+
+
+
 ## [Open Space APIs](http://open-notify.org/)
 
 [open-notify.org](http://open-notify.org/) is a collection of NASA and space APIs for public use. Currently seeing around 20 million requests per month.
@@ -82,7 +99,9 @@ layout and I couldn't keep up with the scraper.
 [![Requirements Status](https://requires.io/github/open-notify/Open-Notify-API/requirements.svg?branch=master)](https://requires.io/github/open-notify/Open-Notify-API/requirements/?branch=master)
 [![Docs](https://readthedocs.org/projects/open-notify-api/badge/?version=latest)](http://open-notify-api.readthedocs.org/)
 
-## Open Source Aerospace
+
+
+## Portland State Aerospace Society 
 
 For many, many years I've been working with [Portland State Aerospace Society](http://psas.pdx.edu/),
 an educational group dedicated to building advanced avionics for high powered rockets.
