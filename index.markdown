@@ -26,6 +26,14 @@ Visualization of the location of nearly every photograph taken from the Internat
 
 --------------------------------------------------------------------------------
 
+
+## [24mm Rocket Design](24mm-rocket) (2016)
+
+Design and build of a small rocket meant for a 24 mm diameter solid propellent motor.
+
+ - [github repository](https://github.com/natronics/24mm-rocket)
+
+
 ## [Space Phrase](space-phrase) (2015)
 
 A cute passphrase generator using space words.
