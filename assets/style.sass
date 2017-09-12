@@ -2,19 +2,12 @@
 ---
 
 // Bulma
-@import "vendor/bulma/bulma/utilities/utilities"
-@import "vendor/bulma/bulma/config/variables"
+@import vendor/bulma/sass/utilities/initial-variables
 
 $primary: #941e56
 $family-sans-serif: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 
-
-@import "vendor/bulma/bulma/config/generated-variables"
-@import "vendor/bulma/bulma/base/base"
-@import "vendor/bulma/bulma/elements/elements"
-@import "vendor/bulma/bulma/components/components"
-@import "vendor/bulma/bulma/layout/layout"
-
+@import vendor/bulma/bulma
 
 // Lato Font
 $FontPath: "/assets/fonts/lato/fonts"
@@ -22,6 +15,8 @@ $FontName: "Lato"
 $FontVersion: "1.0.0"
 
 @import fontdef
+@import "/assets/syntax.css"
+
 
 // Regular
 @font-face
@@ -48,7 +43,6 @@ $FontVersion: "1.0.0"
   +fontdef($FontPath, $FontName, $FontVersion, "Light")
   font-weight: 300
   font-style: normal
-
 
 section
   @extend .section
@@ -98,7 +92,18 @@ article
     @extend .is-primary
     @extend .is-medium
 
+pre
+  code
+    text-align: left
+
 .pubdate
   display: block
   color: #bbb
   margin-bottom: 1.9em
+
+// Helper for treating inline SVG as responsive image
+.svgimg
+  width: 100%
+
+  svg
+    width: 100%

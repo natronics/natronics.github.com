@@ -9,7 +9,8 @@ exclude:
  - assets/fonts/lato/*.md
  - assets/fonts/lato/*.scss
 permalink: /blag/:year/:title/
-markdown: kramdown
-highlight: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 sass:
     style: compressed
