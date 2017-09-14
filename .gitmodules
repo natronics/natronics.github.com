@@ -7,3 +7,6 @@
 [submodule "assets/fonts/lato"]
 	path = assets/fonts/lato
 	url = https://github.com/FontFaceKit/lato.git
+[submodule "resources/js/mathjax"]
+	path = resources/js/mathjax
+	url = https://github.com/mathjax/MathJax.git
