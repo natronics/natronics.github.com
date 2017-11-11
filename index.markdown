@@ -26,6 +26,13 @@ Visualization of the location of nearly every photograph taken from the Internat
 
 --------------------------------------------------------------------------------
 
+## [Kaleidospace](kaleidospace) (2017)
+
+The colors and movement of time-lapse videos from the International Space Station reminds me of a kaleidoscope. I wondered what it would look like if viewed througha kaleidoscope. I was thinking about how I might go about this and I decided I could "build" a virtual kaleidoscope as a simple scene in the 3D animation tool [Blender](https://www.blender.org/).
+
+ - [video](https://vimeo.com/242401422)
+ - [github repository](https://github.com/natronics/kaleidospace)
+
 
 ## [24mm Rocket Design](24mm-rocket) (2016)
 
