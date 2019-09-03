@@ -3,7 +3,7 @@ layout: main
 title: Oculata Certitudine
 ---
 
-I'm a space-obsessed programmer currently in Boulder, Colorado.
+I'm a space-obsessed python programmer currently in Philadelphia, PA.
 
 [My resume](Resume)
 
